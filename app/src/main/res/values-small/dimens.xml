@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="pin_btn">28dp</dimen>
+    <dimen name="pin_btn_margin">2dp</dimen>
+    <dimen name="pin_btn_sp">8sp</dimen>
+</resources>

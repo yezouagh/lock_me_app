@@ -1,0 +1,127 @@
+<resources>
+    <string name="about">About</string>
+    <string name="about_locker">About Locker</string>
+    <string name="about_locker_developers">About Developers</string>
+    <string name="app_name">Lock Me App</string>
+    <string name="general">General</string>
+    <string name="security">Security</string>
+    <string name="display_name">Display name</string>
+    <string name="disable_system_lock">Disable System Lock</string>
+    <string name="disable_system_lock_summary">Choose | none | to prevent multi locker</string>
+    <string name="show_notifications">Show notifications</string>
+    <string name="draw_your_new_signature">Draw Your New Signature</string>
+    <string name="one_more">Just One More Time</string>
+    <string name="about_locker_s">\nMost lockScreens look the same, but locker doesn\'t\nBy combining the best features of every system\'s lock, we made this lockScreen that is informative,innovative,customizable yet easy to use.\n you will detach your current lock for this :D\n\n\nFeatures:\n\n
+        \n✓ Clean interface\n✓ Light weight\n✓ Ram friendly\n✓ Smooth on low end devices\n✓ Customizable text
+        \n✓ Customizable text color\n✓ Battery percent\n✓ lockScreens Gestures\n✓ Changeable background image
+        \n✓ Changeable background color\n✓ Emergency unlock\n✓ Material design\n✓ Pin security
+        \n✓ Customizable theme color\n✓ Double tap to sleep\n✓ Skip gestures on security\n✓ Custom Shortcuts\n✓ Missed calls counter
+        \n✓ Unread Messages Count\n✓ Pin Auto-unlock\n\nThis app is open sourced and signed under GNU Public License\n
+        \nCurrent Version 1.0.1</string>
+    <string name="about_developers_s">Creativity is our middle name.
+        \n\nA tech development team \n a group of teenagers with vision and mind. we want to make computer (PC, mobile..etc) users usage better and easier by offering new solutions.
+        \n\n- What is our goal ?
+        \nWe were born to innovate, not to copy others. We follow this slogan as it is the bible, since our launch we have been creating ideas, or refining others, we will not settle for normal when we can reach for the stars.
+        \n\n- Our philosophy ?
+        \nTo reach the greatest potential with your device and make you -the user- satisfied.by using our solutions, your life will be better.User comes first, all this work is for you, and every person is potentially a user, so you all matter to us.We work for you.
+        \n\n- Why to use our apps ?
+        \nBy using our apps, if not for their awesomeness , you are supporting youth to create and show their minds, everyone deserves to think, and that is how we think.
+        \n\n- I love your work, How can I support you?
+        \nYou can support us by simply by sharing our work and downloading it, you can donate soon too.
+        \n\n- Why do you think you are different ?
+        \nWe love what we do, simple.
+        \n\n\nCheck our website : yez-Developers.com
+        \nFollow us on Twitter : @yez_Developers
+        \nCheck our blog : blog.yez-developers.com</string>
+    <string name="app_Enable">Enable Lock Screen</string>
+    <string name="delete">X</string>
+    <string name="no_missed_calls">No Missed Calls</string>
+    <string name="no_unread_messages">No Unread Messages</string>
+    <string name="no_service">No Service</string>
+    <string name="n1">1</string>
+    <string name="n2">2</string>
+    <string name="n3">3</string>
+    <string name="n4">4</string>
+    <string name="n5">5</string>
+    <string name="n6">6</string>
+    <string name="n7">7</string>
+    <string name="n8">8</string>
+    <string name="n9">9</string>
+    <string name="n0">0</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="saving_image">Saving image</string>
+    <string name="preparing_card">Preparing card</string>
+    <string name="no_storage_card">No storage card</string>
+    <string name="not_enough_space">Not enough space</string>
+    <string name="action_settings">Settings</string>
+    <string name="device_admin">Locker Device Admin</string>
+    <string name="locker_not_enabled">You have to enable Locker first</string>
+    <string name="device_admin_description">This is used to get access to some special permissions in device, for example turn off screen.</string>
+    <string name="admin_explanation">after enabling user will be able to use all the special features in locker.</string>
+    <string name="settings">Settings</string>
+    <string name="seu">Secret Emergency unlock</string>
+    <string name="skip_gestures_on_security">Skip gestures on security</string>
+    <string name="double_tap_to_sleep">Double tap to sleep</string>
+    <string name="lock_now">Lock Now</string>
+    <string name="hide">Hide</string>
+    <string name="show">Show</string>
+    <string name="pref_Theme_Color">Set Theme Color</string>
+    <string name="pref_Theme_Color_summary">Set The Lock Screen Text Color</string>
+    <string name="pref_display_name">Set Display name</string>
+    <string name="set_display_name">Set Lock screen Display name</string>
+    <string name="blur">Add Blur to Lock screen</string>
+    <string name="invisible_gestures">Invisible Gestures</string>
+    <string name="Guide">Guide</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="pref_title_vibrate">Vibrate On Touch</string>
+    <string name="pref_answer">Answer</string>
+    <string name="pref_answer_question">Select &amp; Answer Questions</string>
+    <string name="pref_question1">Question #1</string>
+    <string name="pref_question2">Question #2</string>
+    <string name="pref_email">Your email</string>
+    <string name="forgot">Forgot</string>
+    <string name="pref_header_security">Security options</string>
+    <string name="pref_header_Forgot_summary">In Case You Forgot The PassCode</string>
+    <string name="pref_customize">Customize</string>
+    <string name="pref_change_pass_code">Change PassCode</string>
+    <string name="pref_change_pass_code_summary">Change The PassCode + The Lock Type</string>
+    <string name="pref_Lock_background">Background</string>
+    <string name="pref_choose_background">Set The Background</string>
+    <string name="pref_background_summary">Change The Lock Background Image Or Color</string>
+    <string name="pref_default">Default</string>
+    <string name="pref_lock_type">Lock type</string>
+    <string name="apply">apply</string>
+    <string name="send">Send</string>
+    <string name="or">OR</string>
+    <string name="clear">C</string>
+    <string name="clear_all">Clear</string>
+    <string name="dot">•</string>
+    <string name="lock">©</string>
+    <string name="New">New</string>
+    <string name="ok">OK</string>
+    <string name="retry">Retry</string>
+    <string name="reset">Reset</string>
+    <string name="confirm">Confirm</string>
+    <string name="verify">Verify</string>
+    <item name="lockTid" type="id" />
+    <string name="connexionLost">Unavailable network connection! Please check your connection status.</string>
+    <string name="EmailFormat">This is not a valid e-mail!</string>
+    <string name="data_saved">Your Data Has Been Saved!</string>
+    <string name="PassCode_saved">Your PassCode Has Been Saved!</string>
+    <string name="PassCode_not_saved">Your PassCode Has Not Been Saved!</string>
+    <string name="EmailIsIncorrect">The Email is Incorrect!</string>
+    <string name="incorrect_questions">The questions you selected are not corresponding with the answers!</string>
+    <string name="answer_questions">You Have To Answer The Question!</string>
+    <string name="left">&lt;&lt;</string>
+    <string name="right">&gt;&gt;</string>
+    <string name="add_widgets">Add Widgets</string>
+    <string name="b">|</string>
+    <string name="swipe_to_unlock"><![CDATA[>> SWIPE TO UNLOCK >>]]></string>
+    <string-array name="questions">
+        <item>What\'s your favorite food?</item>
+        <item>What\'s your best friend\'s nickname?</item>
+        <item>How are you?</item>
+    </string-array>
+</resources>

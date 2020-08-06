@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:padding="4dp">
+    <LinearLayout
+        android:id="@+id/wifi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="@dimen/fourty_five_dp"
+            android:layout_height="@dimen/fourty_five_dp"
+            android:background="@drawable/retry">
+            <TextView
+                android:layout_width="@dimen/thirty_dp"
+                android:layout_height="@dimen/thirty_dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_wifi"
+                android:scaleType="fitCenter" />
+        </FrameLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/eight_dp"
+            android:background="@drawable/retry" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="@dimen/fourty_five_dp"
+            android:layout_height="@dimen/fourty_five_dp"
+            android:background="@drawable/retry">
+            <TextView
+                android:id="@+id/audio"
+                android:layout_width="@dimen/thirty_dp"
+                android:layout_height="@dimen/thirty_dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_vibration"
+                android:scaleType="fitCenter" />
+        </FrameLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/eight_dp"
+            android:background="@drawable/retry" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/bluetooth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="@dimen/fourty_five_dp"
+            android:layout_height="@dimen/fourty_five_dp"
+            android:background="@drawable/retry">
+            <TextView
+                android:layout_width="@dimen/thirty_dp"
+                android:layout_height="@dimen/thirty_dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_bluetooth"
+                android:scaleType="fitCenter" />
+        </FrameLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/eight_dp"
+            android:background="@drawable/retry" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="@dimen/fourty_five_dp"
+            android:layout_height="@dimen/fourty_five_dp"
+            android:background="@drawable/retry">
+            <TextView
+                android:layout_width="@dimen/thirty_dp"
+                android:layout_height="@dimen/thirty_dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_data"
+                android:scaleType="fitCenter" />
+        </FrameLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/eight_dp"
+            android:background="@drawable/retry" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/flash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:alpha="0.4">
+        <FrameLayout
+            android:layout_width="@dimen/fourty_five_dp"
+            android:layout_height="@dimen/fourty_five_dp"
+            android:background="@drawable/retry">
+            <TextView
+                android:layout_width="@dimen/thirty_dp"
+                android:layout_height="@dimen/thirty_dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_highlight"
+                android:scaleType="fitCenter" />
+        </FrameLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/eight_dp"
+            android:background="@drawable/retry" />
+    </LinearLayout>
+</LinearLayout>

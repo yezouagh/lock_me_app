@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="24dp"
+    android:layout_height="24dp"
+    android:layout_gravity="center_vertical"
+    android:layout_marginRight="6dp"
+    android:layout_marginEnd="6dp"
+    android:focusable="false"
+    android:clickable="false">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/alpha_checker_tiled"
+        android:contentDescription="@string/app_name" />
+    <com.yez_inc.lock_me_app.ColorPicker.widget.ColorPickerPrefWidgetView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/pref_widget_box" />
+</FrameLayout>

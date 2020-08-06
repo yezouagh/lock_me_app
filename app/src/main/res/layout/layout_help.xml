@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical" >
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="start"
+                    android:text="Welcome to locker!\n\nThis is a detailed guide to the features and everything about the app.\n\nLocker is :\n- Light\n- Fast\n- Customizable\n- Loaded with features\n\nMain Features: \n- iOS8-like pin security\n- Cyanogenmod lock screen gestures\n- Galaxy Touchwiz shortcuts\n- Galaxy Touchwiz personal text\n- Colorable lockscreen\n- Emergengy unlock\n- Changable background\n- Battery percentage\n- Get Missed Calls\n- Get Wifi/Bluetooth State\n- Own Statusbar\n- And even more...\n\nNote : To get the shortcuts,swipe the clock text to left.\n\nGestures Guide:\n\nGestures are the key feature of this app, to use them you need to know what are the built-in functions in the gestures system.\nWe offer now 9 gestures:\n\n1.Unlock:\nTo unlock draw a check sign on the screen like this &apos;✓&apos;\n\n2.Browser:\nTo launch you defult browser draw an &apos;X&apos; sign\n\n3.Camera:\nTo start camera app Draw letter &apos;C&apos;\n\n4.Torch:\nTo toggle phone torch(if found) draw a &apos;t&apos; sign.\n\n5.Bluetooth:\nTo toggle bluetooth draw letter &apos;b&apos;.\n\n6.Wi-Fi:\nTo toggle wifi draw a &apos;W&apos;.\n\n7.General sound mode:\nTo change audio to general draw a &apos;G&apos;.\n\n8.Silent mode:\nTo toggle to silent mode draw a &apos;S&apos;.\n\n9.Vibration mode:\nTo toggle to vibration mode draw a &apos;V&apos;.\n\n\n"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+</ScrollView>

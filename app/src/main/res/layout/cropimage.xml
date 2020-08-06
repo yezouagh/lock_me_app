@@ -1,0 +1,52 @@
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+    <view
+            class="com.yez_inc.lock_me_app.cropImage.CropImageView"
+            android:id="@+id/image"
+            android:background="#55000000"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#50000000"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+        <Button
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/discard"
+            style="@style/CropButton"
+            android:text="@string/delete"
+            android:textSize="@dimen/twenty_two_sp"
+            android:textColor="@android:color/white" />
+        <ImageButton
+            android:id="@+id/rotateLeft"
+            android:layout_toRightOf="@id/discard"
+            android:layout_toEndOf="@id/discard"
+            style="@style/CropButton"
+            android:src="@drawable/ic_rotate_left_black_24dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter" />
+        <ImageButton
+            android:id="@+id/rotateRight"
+            android:layout_toRightOf="@id/rotateLeft"
+            android:layout_toEndOf="@id/rotateLeft"
+            style="@style/CropButton"
+            android:src="@drawable/ic_rotate_right_black_24dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"  />
+        <ImageButton
+            android:id="@+id/save"
+            android:layout_toRightOf="@id/rotateRight"
+            android:layout_toEndOf="@id/rotateRight"
+            style="@style/CropButton"
+            android:src="@drawable/ic_done_all_black_24dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter" />
+    </RelativeLayout>
+</RelativeLayout>

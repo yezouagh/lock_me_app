@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="pin_btn">160dp</dimen>
+    <dimen name="pin_btn_margin">10dp</dimen>
+    <dimen name="pin_btn_sp">56sp</dimen>
+    <dimen name="PanelSwitcher_marginTop">30dp</dimen>
+    <dimen name="PanelSwitcher_height">200dp</dimen>
+    <dimen name="date_textSize">35sp</dimen>
+    <dimen name="date_marginTop">18dp</dimen>
+</resources>

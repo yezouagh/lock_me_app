@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center" >
+    <RelativeLayout
+        android:id="@+id/viewContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:clipToPadding="false"
+        android:paddingBottom="@dimen/spacer"
+        android:paddingLeft="@dimen/spacer"
+        android:paddingRight="@dimen/spacer"
+        android:paddingTop="@dimen/spacer" >
+        <com.yez_inc.lock_me_app.ColorPicker.ColorSquare
+            android:id="@+id/viewSatBri"
+            android:layout_width="@dimen/hsvWidth"
+            android:layout_height="@dimen/hsvHeight"
+            android:layerType="software" />
+        <ImageView
+            android:id="@+id/viewHue"
+            android:layout_width="@dimen/hueWidth"
+            android:layout_height="@dimen/hsvHeight"
+            android:layout_marginLeft="@dimen/spacer"
+            android:layout_marginStart="@dimen/spacer"
+            android:layout_toRightOf="@id/viewSatBri"
+            android:layout_toEndOf="@id/viewSatBri"
+            android:scaleType="fitXY"
+            android:src="@drawable/color_picker_hue"
+            android:contentDescription="@string/app_name" />
+        <ImageView
+            android:id="@+id/alphaChecker"
+            android:layout_width="@dimen/hueWidth"
+            android:layout_height="@dimen/hsvHeight"
+            android:layout_marginLeft="@dimen/spacer"
+            android:layout_marginStart="@dimen/spacer"
+            android:layout_toRightOf="@id/viewHue"
+            android:layout_toEndOf="@id/viewHue"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            android:src="@drawable/alpha_checker_tiled" />
+
+        <View
+            android:id="@+id/overlay"
+            android:layout_width="@dimen/hueWidth"
+            android:layout_height="@dimen/hsvHeight"
+            android:layout_marginLeft="@dimen/spacer"
+            android:layout_toRightOf="@id/viewHue"
+            android:layout_marginStart="@dimen/spacer"
+            android:layout_toEndOf="@id/viewHue" />
+
+        <ImageView
+            android:id="@+id/ColorPicker_cursor"
+            android:layout_width="9dp"
+            android:layout_height="9dp"
+            android:scaleType="matrix"
+            android:src="@drawable/color_picker_cursor"
+            android:contentDescription="@string/app_name" />
+
+        <ImageView
+            android:id="@+id/alphaCursor"
+            android:layout_width="9dp"
+            android:layout_height="9dp"
+            android:scaleType="matrix"
+            android:src="@drawable/color_picker_cursor"
+            android:contentDescription="@string/app_name" />
+
+        <ImageView
+            android:id="@+id/target"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:scaleType="matrix"
+            android:src="@drawable/color_picker_target"
+            android:contentDescription="@string/app_name" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/viewSatBri"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/spacer"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:layout_width="30dp"
+                android:layout_height="30dp" >
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/alpha_checker_tiled" />
+
+                <View
+                    android:id="@+id/oldColor"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#ae00ff" />
+            </FrameLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/spacer"
+                android:paddingRight="@dimen/spacer"
+                android:src="@drawable/arrow_right"
+                android:contentDescription="@string/app_name"/>
+
+            <FrameLayout
+                android:layout_width="30dp"
+                android:layout_height="30dp" >
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/alpha_checker_tiled" />
+
+                <View
+                    android:id="@+id/newColor"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#0084ff" />
+            </FrameLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

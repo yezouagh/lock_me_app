@@ -1,0 +1,59 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:id="@+id/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#60000000"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <com.yez_inc.lock_me_app.lockmeapp.PanelSwitcher
+                android:id="@+id/panelSwitcher1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/PanelSwitcher_height"
+                android:layout_marginTop="@dimen/PanelSwitcher_marginTop" />
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/date_marginTop"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/date_textSize" />
+            <TextView
+                android:id="@+id/texts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/date_textSize"
+                android:typeface="sans" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/lock"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#555555"
+        android:gravity="center"
+        android:padding="@dimen/ten_dp"
+        android:textColor="@android:color/white"
+        android:visibility="gone" />
+</FrameLayout>
